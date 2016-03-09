@@ -1,0 +1,21 @@
+{
+  "name": "elo-rank",
+  "version": "1.0.0",
+  "description": "ELO ranking calculator for 2 vs 2 table soccer games",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "babel src -d dist --presets es2015,stage-2"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "elo"
+  ],
+  "author": "Łukasz Staniszewski",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-2": "^6.5.0"
+  }
+}
